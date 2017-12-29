@@ -1,0 +1,127 @@
+﻿body {
+	margin: 0;
+	font-family: Arial,Verdana;
+	font-size: 120%;
+	/*filter: blur(4px);*/
+}
+.no-overflow {
+	overflow: hidden;
+}
+.no-overflow-horizontal {
+	overflow-x: hidden;
+}
+.no-overflow-verical {
+	overflow-y: hidden;
+}
+.no-cursor,.no-cursor * {
+	cursor: none;
+}
+.no-cursor-element {
+	cursor: none;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+/*Beamer steuern*/
+
+#beamersteuern select {
+	resize: vertical;
+	display: block;
+	float: left;
+}
+#beamersteuern div#controls {
+	clear: both;
+}
+
+/*Anleitung,Hinweis,Warnung,Error*/
+
+div.error,div.warnung,div.anleitung,div.hinweis {
+	line-height: 160%;
+	padding: 20px;
+}
+div.error center,div.warnung center,div.anleitung center,div.hinweis center {
+	font-size: 160%;
+	font-weight: bold;
+}
+div.error {
+	background: red;
+}
+div.warnung {
+	background: yellow;
+}
+div.hinweis {
+	background: cornflowerblue;
+}
+div.anleitung {
+	background: green;
+}
+
+/*Anzeige*/
+
+.fixed {
+	color: crimson;
+}
+.block.notset {
+	background: silver;
+}
+.block {
+	background: lightgoldenrodyellow;
+}
+.time {
+	text-align: right;
+}
+h1 {
+	font-size: 40px;
+}
+h1,h2 {
+	text-align: center;
+}
+section#naechstespiele {
+	/*width: 20%;*/
+	height: 100%;
+    float: left;
+    background: #F4F4F4;
+	padding: 0 15px;
+}
+section#video {
+	max-width: 70%;
+	float: left;
+}
+section#text,section#video {
+	float: left;
+	width: 80%;
+	padding: 0 10px 0 10px;
+	width: auto;
+	height: 100%;
+	border-style: none;
+}
+
+/*Hauptteil*/
+
+nav {
+	background: #505C50;
+}
+nav a,nav span {
+	font-size: 200%;
+	color: #30A570;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 25px;
+	border-radius: 10px;
+}
+nav span#line {
+	padding-left: 100%;
+	font-size: 0;
+}
+nav .current {
+	background: grey;
+}
+table.list tbody tr:hover {
+	background: #D0D0D0;
+}
+input.changed {
+	background: blue;
+}
