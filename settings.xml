@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wettbewerb>
+    <startzeit>09:00</startzeit>
+    <spieldauer>180</spieldauer><!--in Sekunden-->
+    <spielpause>120</spielpause><!--in Sekunden, Pause zwischen zwei Spielen-->
+    <strafe>5</strafe><!--Wertigkeit einer normalen Strafe-->
+    <handeingriff>2</handeingriff><!--Wertigkeit eines Handeingriffs-->
+    <bewertungslimit>3</bewertungslimit><!--ausschließlich Bewertung der besten n Spiele, für alle leer lassen-->
+</wettbewerb>
