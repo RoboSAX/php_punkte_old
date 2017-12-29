@@ -1,0 +1,34 @@
+main {
+    display: grid;
+}
+@media (orientation: landscape) {
+    main {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "ablauf ablauf"
+            "teams bloecke" 
+            "spiele spiele";
+    }
+}
+@media (orientation: portrait) {
+    main {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "ablauf"
+            "bloecke"
+            "teams" 
+            "spiele";
+    }
+}
+section#s_teams {
+    grid-area: teams;
+}
+section#s_bloecke {
+    grid-area: bloecke;
+}
+section#s_spiele {
+    grid-area: spiele;
+}
+section#s_ablauf {
+    grid-area: ablauf;
+}
